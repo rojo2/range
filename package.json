@@ -1,19 +1,31 @@
 {
-  "name": "@rojo2/clamp",
+  "name": "@rojo2/range",
   "version": "1.0.0",
-  "description": "",
+  "description": "Functions to convert from and to an specified range",
   "main": "index.js",
   "scripts": {
-    "test": "mocha",
-    "test:watch": "mocha --watch"
+    "test": "mocha --require chai/register-expect",
+    "test:watch": "mocha --require chai/register-expect --watch"
   },
   "keywords": [
-    "clamp"
+    "range"
   ],
   "author": "ROJO 2 <hola@rojo2.com> (http://rojo2.com)",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rojo2/range.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rojo2/range/issues"
+  },
+  "homepage": "https://github.com/rojo2/range#readme"
 }
